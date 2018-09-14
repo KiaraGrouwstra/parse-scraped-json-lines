@@ -1,0 +1,24 @@
+{
+  "name": "parsejl",
+  "version": "1.0.0",
+  "description": "parse jl files",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run-script build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tycho Grouwstra <tychogrouwstra@gmail.com> (https://github.com/tycho01)",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.10.0",
+    "partsley": "^2.0.6",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^3.9.1",
+    "@types/ramda": "github:types/npm-ramda#dist",
+    "typescript": "^2.6.1"
+  }
+}
